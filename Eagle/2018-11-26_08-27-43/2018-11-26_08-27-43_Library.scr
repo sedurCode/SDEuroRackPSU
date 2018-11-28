@@ -1,0 +1,899 @@
+# Created by Ultra Librarian Gold 8.1.204 Copyright © 1999-2016
+# Vinay Jayaram - Server, Texas Instruments
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'XAL4020.pac';
+Layer 1;
+Smd '1' 38 146 -0 R0 (-46.5 0);
+Layer 1;
+Smd '2' 38 146 -0 R0 (46.5 0);
+Layer 21;
+Wire 6 (72 -84) (84 -84);
+Wire 6 (21 84) (-21 84);
+Wire 6 (-72 84) (-84 84);
+Wire 6 (-21 -84) (21 -84);
+Wire 6 (-84 -84) (-72 -84);
+Wire 6 (84 -84) (84 84);
+Wire 6 (84 84) (72 84);
+Wire 6 (-84 84) (-84 -84);
+Layer 25;
+Wire 6 (-84 -84) (84 -84);
+Wire 6 (84 -84) (84 84);
+Wire 6 (84 84) (-84 84);
+Wire 6 (-84 84) (-84 -84);
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-113 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-129 -25);
+
+Edit 'RGX0011A.pac';
+Layer 1;
+Smd '1' 13.7795 98.4252 -0 R90 NOCREAM (0 19.685);
+Layer 1;
+Smd '2' 13.7795 98.4252 -0 R90 NOCREAM (0 0);
+Layer 1;
+Smd '3' 13.7795 98.4252 -0 R90 NOCREAM (0 -19.685);
+Layer 1;
+Smd '4' 9.8425 23.622 -0 R180 (-29.5276 -55.1181);
+Layer 1;
+Smd '5' 9.8425 23.622 -0 R180 (-9.8426 -55.1181);
+Layer 1;
+Smd '6' 9.8425 23.622 -0 R180 (9.8425 -55.1181);
+Layer 1;
+Smd '7' 9.8425 23.622 -0 R180 (29.5275 -55.1181);
+Layer 1;
+Smd '8' 9.8425 23.622 -0 R180 (29.5276 55.1181);
+Layer 1;
+Smd '9' 9.8425 23.622 -0 R180 (9.8426 55.1181);
+Layer 1;
+Smd '10' 9.8425 23.622 -0 R180 (-9.8425 55.1181);
+Layer 1;
+Smd '11' 9.8425 23.622 -0 R180 (-29.5275 55.1181);
+Layer 25;
+Wire 6 (-41 61) (41 61);
+Wire 6 (-41 -61) (-41 61);
+Wire 6 (41 -61) (41 61);
+Wire 6 (-41 -61) (41 -61);
+Wire 4 (-14 39) -180 (-33 39);
+Wire 4 (-33 39) -180 (-14 39);
+Change Size 50;
+Change Ratio 6;
+Text '.Designator' SR90 (51 -55);
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-113 -25);
+Layer 21;
+Wire 8 (-47 79) (-31 79);
+Wire 8 (-47 43) (-47 79);
+Wire 8 (-47 -79) (-47 -63);
+Wire 8 (-47 -79) (-31 -79);
+Wire 8 (31 -79) (47 -79);
+Wire 8 (47 -79) (47 -63);
+Wire 8 (31 79) (47 79);
+Wire 8 (47 63) (47 79);
+Change Size 50;
+Change Ratio 6;
+Text 'Designator9' SR0 (-44 98);
+Layer 31;
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (20.8661 16.7322) (20.8661 22.6377) (20.904 23.0218) (21.016 23.3911) \
+    (21.1979 23.7314) (21.4427 24.0297) (21.741 24.2745) (22.0813 24.4564) \
+    (22.4506 24.5684) (22.8346 24.6062) (44.8819 24.6062) (45.266 24.5684) \
+    (45.6353 24.4564) (45.9756 24.2745) (46.2739 24.0297) (46.5187 23.7314) \
+    (46.7006 23.3911) (46.8126 23.0218) (46.8504 22.6377) (46.8504 16.7322) \
+    (46.8126 16.3482) (46.7006 15.9789) (46.5187 15.6386) (46.2739 15.3403) \
+    (45.9756 15.0955) (45.6353 14.9136) (45.266 14.8016) (44.8819 14.7637) \
+    (22.8346 14.7637) (22.4506 14.8016) (22.0813 14.9136) (21.741 15.0955) \
+    (21.4427 15.3403) (21.1979 15.6386) (21.016 15.9789) (20.904 16.3482) (20.8661 16.7322);
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (-20.8661 22.6377) (-20.8661 16.7322) (-20.904 16.3482) (-21.016 15.9789) \
+    (-21.1979 15.6386) (-21.4427 15.3403) (-21.741 15.0955) (-22.0813 14.9136) \
+    (-22.4506 14.8016) (-22.8346 14.7637) (-44.8819 14.7637) (-45.266 14.8016) \
+    (-45.6353 14.9136) (-45.9756 15.0955) (-46.2739 15.3403) (-46.5187 15.6386) \
+    (-46.7006 15.9789) (-46.8126 16.3482) (-46.8504 16.7322) (-46.8504 22.6377) \
+    (-46.8126 23.0218) (-46.7006 23.3911) (-46.5187 23.7314) (-46.2739 24.0297) \
+    (-45.9756 24.2745) (-45.6353 24.4564) (-45.266 24.5684) (-44.8819 24.6062) \
+    (-22.8346 24.6062) (-22.4506 24.5684) (-22.0813 24.4564) (-21.741 24.2745) \
+    (-21.4427 24.0297) (-21.1979 23.7314) (-21.016 23.3911) (-20.904 23.0218) (-20.8661 22.6377);
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (12.9922 22.6377) (12.9922 16.7322) (12.9543 16.3482) (12.8423 15.9789) \
+    (12.6604 15.6386) (12.4156 15.3403) (12.1173 15.0955) (11.777 14.9136) \
+    (11.4077 14.8016) (11.0236 14.7637) (-11.0236 14.7637) (-11.4077 14.8016) \
+    (-11.777 14.9136) (-12.1173 15.0955) (-12.4156 15.3403) (-12.6604 15.6386) \
+    (-12.8423 15.9789) (-12.9543 16.3482) (-12.9922 16.7322) (-12.9922 22.6377) \
+    (-12.9543 23.0218) (-12.8423 23.3911) (-12.6604 23.7314) (-12.4156 24.0297) \
+    (-12.1173 24.2745) (-11.777 24.4564) (-11.4077 24.5684) (-11.0236 24.6062) \
+    (11.0236 24.6062) (11.4077 24.5684) (11.777 24.4564) (12.1173 24.2745) \
+    (12.4156 24.0297) (12.6604 23.7314) (12.8423 23.3911) (12.9543 23.0218) (12.9922 22.6377);
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (12.9922 -16.7322) (12.9922 -22.6377) (12.9543 -23.0218) (12.8423 -23.3911) \
+    (12.6604 -23.7314) (12.4156 -24.0297) (12.1173 -24.2745) (11.777 -24.4564) \
+    (11.4077 -24.5684) (11.0236 -24.6062) (-11.0236 -24.6062) (-11.4077 -24.5684) \
+    (-11.777 -24.4564) (-12.1173 -24.2745) (-12.4156 -24.0297) (-12.6604 -23.7314) \
+    (-12.8423 -23.3911) (-12.9543 -23.0218) (-12.9922 -22.6377) (-12.9922 -16.7322) \
+    (-12.9543 -16.3482) (-12.8423 -15.9789) (-12.6604 -15.6386) (-12.4156 -15.3403) \
+    (-12.1173 -15.0955) (-11.777 -14.9136) (-11.4077 -14.8016) (-11.0236 -14.7637) \
+    (11.0236 -14.7637) (11.4077 -14.8016) (11.777 -14.9136) (12.1173 -15.0955) \
+    (12.4156 -15.3403) (12.6604 -15.6386) (12.8423 -15.9789) (12.9543 -16.3482) (12.9922 -16.7322);
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (-20.8661 -16.7322) (-20.8661 -22.6377) (-20.904 -23.0218) (-21.016 -23.3911) \
+    (-21.1979 -23.7314) (-21.4427 -24.0297) (-21.741 -24.2745) (-22.0813 -24.4564) \
+    (-22.4506 -24.5684) (-22.8346 -24.6062) (-44.8819 -24.6062) (-45.266 -24.5684) \
+    (-45.6353 -24.4564) (-45.9756 -24.2745) (-46.2739 -24.0297) (-46.5187 -23.7314) \
+    (-46.7006 -23.3911) (-46.8126 -23.0218) (-46.8504 -22.6377) (-46.8504 -16.7322) \
+    (-46.8126 -16.3482) (-46.7006 -15.9789) (-46.5187 -15.6386) (-46.2739 -15.3403) \
+    (-45.9756 -15.0955) (-45.6353 -14.9136) (-45.266 -14.8016) (-44.8819 -14.7637) \
+    (-22.8346 -14.7637) (-22.4506 -14.8016) (-22.0813 -14.9136) (-21.741 -15.0955) \
+    (-21.4427 -15.3403) (-21.1979 -15.6386) (-21.016 -15.9789) (-20.904 -16.3482) (-20.8661 -16.7322);
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (20.8661 -22.6377) (20.8661 -16.7322) (20.904 -16.3482) (21.016 -15.9789) \
+    (21.1979 -15.6386) (21.4427 -15.3403) (21.741 -15.0955) (22.0813 -14.9136) \
+    (22.4506 -14.8016) (22.8346 -14.7637) (44.8819 -14.7637) (45.266 -14.8016) \
+    (45.6353 -14.9136) (45.9756 -15.0955) (46.2739 -15.3403) (46.5187 -15.6386) \
+    (46.7006 -15.9789) (46.8126 -16.3482) (46.8504 -16.7322) (46.8504 -22.6377) \
+    (46.8126 -23.0218) (46.7006 -23.3911) (46.5187 -23.7314) (46.2739 -24.0297) \
+    (45.9756 -24.2745) (45.6353 -24.4564) (45.266 -24.5684) (44.8819 -24.6062) \
+    (22.8346 -24.6062) (22.4506 -24.5684) (22.0813 -24.4564) (21.741 -24.2745) \
+    (21.4427 -24.0297) (21.1979 -23.7314) (21.016 -23.3911) (20.904 -23.0218) (20.8661 -22.6377);
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (12.9922 2.9527) (12.9922 -2.9527) (12.9543 -3.3368) (12.8423 -3.7061) \
+    (12.6604 -4.0464) (12.4156 -4.3447) (12.1173 -4.5895) (11.777 -4.7714) \
+    (11.4077 -4.8834) (11.0236 -4.9212) (-11.0236 -4.9212) (-11.4077 -4.8834) \
+    (-11.777 -4.7714) (-12.1173 -4.5895) (-12.4156 -4.3447) (-12.6604 -4.0464) \
+    (-12.8423 -3.7061) (-12.9543 -3.3368) (-12.9922 -2.9527) (-12.9922 2.9527) \
+    (-12.9543 3.3368) (-12.8423 3.7061) (-12.6604 4.0464) (-12.4156 4.3447) \
+    (-12.1173 4.5895) (-11.777 4.7714) (-11.4077 4.8834) (-11.0236 4.9212) \
+    (11.0236 4.9212) (11.4077 4.8834) (11.777 4.7714) (12.1173 4.5895) (12.4156 4.3447) \
+    (12.6604 4.0464) (12.8423 3.7061) (12.9543 3.3368) (12.9922 2.9527);
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (-20.8661 2.9527) (-20.8661 -2.9527) (-20.904 -3.3368) (-21.016 -3.7061) \
+    (-21.1979 -4.0464) (-21.4427 -4.3447) (-21.741 -4.5895) (-22.0813 -4.7714) \
+    (-22.4506 -4.8834) (-22.8346 -4.9212) (-44.8819 -4.9212) (-45.266 -4.8834) \
+    (-45.6353 -4.7714) (-45.9756 -4.5895) (-46.2739 -4.3447) (-46.5187 -4.0464) \
+    (-46.7006 -3.7061) (-46.8126 -3.3368) (-46.8504 -2.9527) (-46.8504 2.9527) \
+    (-46.8126 3.3368) (-46.7006 3.7061) (-46.5187 4.0464) (-46.2739 4.3447) \
+    (-45.9756 4.5895) (-45.6353 4.7714) (-45.266 4.8834) (-44.8819 4.9212) \
+    (-22.8346 4.9212) (-22.4506 4.8834) (-22.0813 4.7714) (-21.741 4.5895) \
+    (-21.4427 4.3447) (-21.1979 4.0464) (-21.016 3.7061) (-20.904 3.3368) (-20.8661 2.9527);
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (20.8661 -2.9527) (20.8661 2.9527) (20.904 3.3368) (21.016 3.7061) \
+    (21.1979 4.0464) (21.4427 4.3447) (21.741 4.5895) (22.0813 4.7714) (22.4506 4.8834) \
+    (22.8346 4.9212) (44.8819 4.9212) (45.266 4.8834) (45.6353 4.7714) (45.9756 4.5895) \
+    (46.2739 4.3447) (46.5187 4.0464) (46.7006 3.7061) (46.8126 3.3368) \
+    (46.8504 2.9527) (46.8504 -2.9527) (46.8126 -3.3368) (46.7006 -3.7061) \
+    (46.5187 -4.0464) (46.2739 -4.3447) (45.9756 -4.5895) (45.6353 -4.7714) \
+    (45.266 -4.8834) (44.8819 -4.9212) (22.8346 -4.9212) (22.4506 -4.8834) \
+    (22.0813 -4.7714) (21.741 -4.5895) (21.4427 -4.3447) (21.1979 -4.0464) \
+    (21.016 -3.7061) (20.904 -3.3368) (20.8661 -2.9527);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-129 -25);
+
+Edit '0402.pac';
+Layer 1;
+Smd '1' 22 24 -0 R0 (-16.5 0);
+Layer 1;
+Smd '2' 22 24 -0 R0 (16.5 0);
+Layer 21;
+Layer 25;
+Wire 6 (-6 -12) (-6 12);
+Wire 6 (-6 12) (-22 12);
+Wire 6 (-22 12) (-22 -12);
+Wire 6 (-22 -12) (-6 -12);
+Wire 6 (5 12) (6 -12);
+Wire 6 (6 -12) (22 -12);
+Wire 6 (22 -12) (22 12);
+Wire 6 (22 12) (5 12);
+Wire 6 (-22 -12) (22 -12);
+Wire 6 (22 -12) (22 12);
+Wire 6 (22 12) (-22 12);
+Wire 6 (-22 12) (-22 -12);
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-113 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-129 -25);
+
+Edit '0805.pac';
+Layer 1;
+Smd '1' 44 57 -0 R0 (-35.5 0);
+Layer 1;
+Smd '2' 44 57 -0 R0 (35.5 0);
+Layer 21;
+Layer 25;
+Wire 6 (-14 -28) (-14 28);
+Wire 6 (-14 28) (-44 28);
+Wire 6 (-44 28) (-44 -28);
+Wire 6 (-44 -28) (-14 -28);
+Wire 6 (14 28) (14 -28);
+Wire 6 (14 -28) (44 -28);
+Wire 6 (44 -28) (44 29);
+Wire 6 (44 29) (14 28);
+Wire 6 (-44 -28) (44 -28);
+Wire 6 (44 -28) (44 28);
+Wire 6 (44 28) (-44 28);
+Wire 6 (-44 28) (-44 -28);
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-113 -25);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-129 -25);
+
+Edit 'WB_CONTINUATION.sym';
+Layer 94;
+Pin 'Node' Pas None Short R270 Both 0 (0 -100);
+Wire 20 (0 -100) (0 100);
+Wire 20 (-100 100) (100 100);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_BLOCK_IO.sym';
+Layer 94;
+Pin '2' Pas None Point R180 Both 0 (50 0);
+Wire 16 (50 0) (0 0);
+Pin '1' Pas None Point R0 Both 0 (-50 0);
+Wire 16 (-50 0) (0 0);
+Wire 20 (-50 0) (50 0);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_PWL_VOLTAGE_SOURCE.sym';
+Layer 94;
+Pin '+' Pas None Short R0 Both 0 (-300 0);
+Pin '-' Pas None Short R180 Both 0 (300 0);
+Wire 20 (-300 0) (-200 0);
+Wire 20 (300 0) (200 0);
+Wire 20 (-70 -60) (40 -80);
+Wire 20 (-70 60) (40 80);
+Wire 20 (-200 0) (-150 0);
+Wire 20 (200 0) (150 0);
+Wire 20 (-70 60) (-70 -60);
+Wire 20 (40 80) (40 110);
+Wire 20 (40 -80) (40 -110);
+Wire 20 (230 130) (230 70);
+Wire 20 (-230 130) (-230 70);
+Wire 20 (-260 100) (-200 100);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_SOURCE_RESISTOR.sym';
+Layer 94;
+Pin '1' Pas None Short R180 Both 0 (300 0);
+Pin '2' Pas None Short R0 Both 0 (-300 0);
+Wire 20 (300 0) (200 0);
+Wire 20 (200 0) (150 60);
+Wire 20 (150 60) (75 -60);
+Wire 20 (75 -60) (0 60);
+Wire 20 (0 60) (-75 -60);
+Wire 20 (-75 -60) (-150 60);
+Wire 20 (-150 60) (-200 0);
+Wire 20 (-200 0) (-300 0);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_PRIM_PWL_VOLTAGE_SOURCE.sym';
+Layer 94;
+Pin '-' Pas None Short R180 Both 0 (300 0);
+Pin '+' Pas None Short R0 Both 0 (-300 0);
+Wire 20 (-300 0) (-200 0);
+Wire 20 (300 0) (200 0);
+Wire 20 (-70 -60) (40 -80);
+Wire 20 (-70 60) (40 80);
+Wire 20 (-200 0) (-150 0);
+Wire 20 (200 0) (150 0);
+Wire 20 (-70 60) (-70 -60);
+Wire 20 (40 80) (40 110);
+Wire 20 (40 -80) (40 -110);
+Wire 20 (230 130) (230 70);
+Wire 20 (-230 130) (-230 70);
+Wire 20 (-260 100) (-200 100);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_CURRENT_PROBE.sym';
+Layer 94;
+Pin 'Output' Pas None Short R180 Both 0 (150 0);
+Pin 'Input' Pas None Short R0 Both 0 (-150 0);
+Wire 20 (-160 0) (-100 0);
+Wire 20 (60 0) (30 35);
+Wire 20 (30 35) (30 -35);
+Wire 20 (30 -35) (60 0);
+Wire 20 (60 0) (-60 0);
+Wire 20 (100 0) (160 0);
+Wire 10 (-95 70) (95 70);
+Wire 10 (95 70) (95 -70);
+Wire 10 (95 -70) (-95 -70);
+Wire 10 (-95 -70) (-95 70);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_LOAD_RESISTOR.sym';
+Layer 94;
+Pin '1' Pas None Short R180 Both 0 (300 0);
+Pin '2' Pas None Short R0 Both 0 (-300 0);
+Wire 20 (300 0) (200 0);
+Wire 20 (200 0) (150 60);
+Wire 20 (150 60) (75 -60);
+Wire 20 (75 -60) (0 60);
+Wire 20 (0 60) (-75 -60);
+Wire 20 (-75 -60) (-150 60);
+Wire 20 (-150 60) (-200 0);
+Wire 20 (-200 0) (-300 0);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_PRIM_STARTUP_VOLTAGE_SOURCE.sym';
+Layer 94;
+Pin '+' Pas None Short R0 Both 0 (-300 0);
+Pin '-' Pas None Short R180 Both 0 (300 0);
+Wire 20 (-60 110) (-60 -70);
+Wire 20 (-60 -70) (50 -90);
+Wire 20 (50 -90) (50 -120);
+Wire 20 (160 120) (160 180);
+Wire 20 (-170 120) (-170 180);
+Wire 20 (-140 150) (-200 150);
+Wire 20 (-150 0) (-300 0);
+Wire 20 (300 0) (150 0);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_STARTUP_VOLTAGE_SOURCE.sym';
+Layer 94;
+Pin '+' Pas None Short R0 Both 0 (-300 0);
+Pin '-' Pas None Short R180 Both 0 (300 0);
+Wire 20 (-60 110) (-60 -70);
+Wire 20 (-60 -70) (50 -90);
+Wire 20 (50 -90) (50 -120);
+Wire 20 (160 120) (160 180);
+Wire 20 (-170 120) (-170 180);
+Wire 20 (-140 150) (-200 150);
+Wire 20 (-150 0) (-300 0);
+Wire 20 (300 0) (150 0);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_ZERO_VOLT_SOURCE.sym';
+Layer 94;
+Pin '1' Pas None Short R0 Both 0 (-50 0);
+Pin '2' Pas None Short R180 Both 0 (50 0);
+Wire 20 (-50 0) (50 0);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_PWL_CURRENT_LOAD.sym';
+Layer 94;
+Pin '+' Pas None Short R0 Both 0 (-300 0);
+Pin '-' Pas None Short R180 Both 0 (300 0);
+Wire 20 (-300 0) (-200 0);
+Wire 20 (300 0) (200 0);
+Wire 20 (-70 -60) (40 -80);
+Wire 20 (-70 60) (40 80);
+Wire 20 (-200 0) (-150 0);
+Wire 20 (200 0) (150 0);
+Wire 20 (-70 60) (-70 -60);
+Wire 20 (40 80) (40 110);
+Wire 20 (40 -80) (40 -110);
+Wire 20 (230 130) (230 70);
+Wire 20 (-230 130) (-230 70);
+Wire 20 (-260 100) (-200 100);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_GND.sym';
+Layer 94;
+Pin '1' Pas None Short R270 Off 0 (0 100);
+Wire 6 (0 100) (0 0);
+Wire 6 (-130 0) (130 0);
+Wire 6 (-90 -40) (90 -40);
+Wire 6 (-30 -80) (30 -80);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-186 -41);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+
+Edit 'WB_PRIMITIVE_BATTERY.sym';
+Layer 94;
+Pin '+' Pas None Short R0 Both 0 (-300 0);
+Pin '-' Pas None Short R180 Both 0 (300 0);
+Wire 20 (-80 0) (-300 0);
+Wire 20 (-70 -120) (-70 120);
+Wire 20 (40 -120) (40 120);
+Wire 20 (300 0) (110 0);
+Wire 20 (-20 -50) (-20 50);
+Wire 20 (-10 -50) (-10 50);
+Wire 20 (-140 90) (-140 150);
+Wire 20 (-110 120) (-170 120);
+Wire 20 (130 100) (130 150);
+Wire 20 (100 -50) (100 50);
+Wire 20 (90 -50) (90 50);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_CURRENT_LOAD.sym';
+Layer 94;
+Pin '+' Pas None Short R0 Off 0 (-300 0);
+Pin '-' Pas None Short R180 Off 0 (300 0);
+Wire 6 (300 0) (150 0);
+Wire 6 (-150 0) (-300 0);
+Wire 6 (30 -70) (120 0);
+Wire 6 (30 70) (120 0);
+Wire 6 (120 0) (-120 0);
+Wire 6 (-106 -106) -44 (-150 0);
+Wire 6 (0 -150) -44 (-106 -106);
+Wire 6 (106 -106) -45 (0 -150);
+Wire 6 (150 0) -45 (106 -106);
+Wire 6 (106 106) -44 (150 0);
+Wire 6 (0 150) -44 (106 106);
+Wire 6 (-106 106) -45 (0 150);
+Wire 6 (-150 0) -45 (-106 106);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-186 -41);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+
+Edit 'WB_INDUCTOR.sym';
+Layer 94;
+Pin '2' Pas None Short R180 Off 0 (300 0);
+Pin '1' Pas None Short R0 Off 0 (-300 0);
+Wire 6 (200 0) (300 0);
+Wire 6 (-300 0) (-200 0);
+Wire 6 (100 0) -12 (106 33);
+Wire 6 (106 33) -78 (150 73);
+Wire 6 (150 73) -79 (193 33);
+Wire 6 (193 33) -2 (200 3);
+Wire 6 (0 0) -12 (6 33);
+Wire 6 (6 33) -78 (50 73);
+Wire 6 (50 73) -79 (93 33);
+Wire 6 (93 33) -17 (100 -7);
+Wire 6 (-100 0) -12 (-94 33);
+Wire 6 (-94 33) -78 (-50 73);
+Wire 6 (-50 73) -79 (-7 33);
+Wire 6 (-7 33) -17 (0 -7);
+Wire 6 (-200 0) -12 (-194 33);
+Wire 6 (-194 33) -78 (-150 73);
+Wire 6 (-150 73) -79 (-107 33);
+Wire 6 (-107 33) -17 (-100 -7);
+Wire 6 (-100 -7) -53 (-100 0);
+Wire 6 (0 -7) -53 (0 0);
+Wire 6 (100 -7) -53 (100 0);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-186 184);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+
+Edit 'WB_VOLTAGE_PROBE.sym';
+Layer 94;
+Pin '1' Pas None Short R90 Both 0 (0 0);
+Wire 10 (-100 300) (100 300);
+Wire 10 (100 300) (100 105);
+Wire 10 (100 105) (-100 105);
+Wire 10 (-100 105) (-100 300);
+Wire 20 (70 270) (40 220);
+Wire 20 (40 220) (30 260);
+Wire 20 (30 260) (0 180);
+Wire 20 (0 180) (-10 220);
+Wire 20 (-10 220) (-50 140);
+Wire 20 (0 0) (0 100);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_TPS62135RGX.sym';
+Layer 94;
+Pin 'VIN' Pas None Middle R0 Both 0 (-600 500);
+Pin 'SW' Pas None Middle R180 Both 0 (600 500);
+Pin 'GND' Pas None Middle R180 Both 0 (600 -600);
+Pin 'FB2' Pas None Middle R180 Both 0 (600 -400);
+Pin 'FB' Pas None Middle R180 Both 0 (600 100);
+Pin 'VOS' Pas None Middle R180 Both 0 (600 300);
+Pin 'PG' Pas None Middle R180 Both 0 (600 -200);
+Pin 'EN' Pas None Middle R0 Both 0 (-600 300);
+Pin 'SS_TR' Pas None Middle R0 Both 0 (-600 -300);
+Pin 'MODE' Pas None Middle R0 Both 0 (-600 -100);
+Pin 'VSEL' Pas None Middle R0 Both 0 (-600 100);
+Wire 20 (-400 -700) (400 -700);
+Wire 20 (400 -700) (400 700);
+Wire 20 (400 700) (-400 700);
+Wire 20 (-400 700) (-400 -700);
+Wire 20 (-600 500) (-400 500);
+Wire 20 (600 500) (400 500);
+Wire 20 (600 -600) (400 -600);
+Wire 20 (600 -400) (400 -400);
+Wire 20 (600 100) (400 100);
+Wire 20 (600 300) (400 300);
+Wire 20 (600 -200) (400 -200);
+Wire 20 (-600 300) (-400 300);
+Wire 20 (-600 -300) (-400 -300);
+Wire 20 (-600 -100) (-400 -100);
+Wire 20 (-600 100) (-400 100);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_RESISTOR.sym';
+Layer 94;
+Pin '1' Pas None Short R180 Off 0 (300 0);
+Pin '2' Pas None Short R0 Off 0 (-300 0);
+Wire 6 (300 0) (200 0);
+Wire 6 (200 0) (150 60);
+Wire 6 (150 60) (75 -60);
+Wire 6 (75 -60) (0 60);
+Wire 6 (0 60) (-75 -60);
+Wire 6 (-75 -60) (-150 60);
+Wire 6 (-150 60) (-200 0);
+Wire 6 (-200 0) (-300 0);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-186 184);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+
+Edit 'WB_CAPACITOR.sym';
+Layer 94;
+Pin '1' Pas None Short R180 Off 0 (300 0);
+Pin '2' Pas None Short R0 Off 0 (-300 0);
+Wire 6 (300 0) (200 0);
+Wire 6 (-300 0) (-200 0);
+Wire 6 (30 -120) (30 120);
+Wire 6 (-200 0) (-30 0);
+Wire 6 (30 0) (200 0);
+Wire 6 (-30 -120) (-30 120);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-186 259);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+
+Edit 'WB_TPS62135_PFMPWM.sym';
+Layer 94;
+Pin 'PIN_2' Pas None Short R180 Both 0 (650 450);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_TPS62135_PWM.sym';
+Layer 94;
+Pin 'PIN_2' Pas None Short R180 Both 0 (650 -200);
+Pin 'PIN_1' Pas None Short R180 Both 0 (-250 400);
+Layer 97;
+Layer 95;
+Change Size 100;
+Change Ratio 10;
+Text '>Name' SR0 (0 0);
+Layer 96;
+Change Size 100;
+Change Ratio 10;
+Text '>Value' SR0 (0 0);
+
+Edit 'WB_BATTERY.sym';
+Layer 94;
+Pin '+' Pas None Short R0 Off 0 (-300 0);
+Pin '-' Pas None Short R180 Off 0 (300 0);
+Wire 6 (-80 0) (-300 0);
+Wire 6 (-70 -120) (-70 120);
+Wire 6 (40 -120) (40 120);
+Wire 6 (300 0) (110 0);
+Wire 6 (-20 -50) (-20 50);
+Wire 6 (-10 -50) (-10 50);
+Wire 6 (-140 90) (-140 150);
+Wire 6 (-110 120) (-170 120);
+Wire 6 (130 100) (130 150);
+Wire 6 (100 -50) (100 50);
+Wire 6 (90 -50) (90 50);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-186 159);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+
+Edit 'TPS62135RGX.sym';
+Layer 94;
+Pin 'VIN' Pwr None Middle R0 Both 0 (-600 500);
+Pin 'SW' Pwr None Middle R180 Both 0 (600 500);
+Pin 'GND' Pwr None Middle R180 Both 0 (600 -600);
+Pin 'FB2' In None Middle R180 Both 0 (600 -400);
+Pin 'FB' In None Middle R180 Both 0 (600 100);
+Pin 'VOS' In None Middle R180 Both 0 (600 300);
+Pin 'PG' OC None Middle R180 Both 0 (600 -200);
+Pin 'EN' In None Middle R0 Both 0 (-600 300);
+Pin 'SS_TR' In None Middle R0 Both 0 (-600 -300);
+Pin 'MODE' In None Middle R0 Both 0 (-600 -100);
+Pin 'VSEL' In None Middle R0 Both 0 (-600 100);
+Wire 8 (-400 -700) (400 -700);
+Wire 8 (400 -700) (400 700);
+Wire 8 (400 700) (-400 700);
+Wire 8 (-400 700) (-400 -700);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (-186 59);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (-211 -41);
+
+Edit 'XAL4020-102MEB.dev';
+Prefix '';
+Description '';
+Value Off;
+Add WB_INDUCTOR 'A' Next  0 (0 0);
+Package 'XAL4020';
+Technology '';
+Attribute L '1.0E6';
+Attribute DCR '0.01';
+Attribute IDC '8.75';
+Attribute Manufacturer_Part_Number 'XAL4020102MEB';
+Attribute Vendor 'Coilcraft';
+Attribute Manufacturer_Name 'Coilcraft';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+
+Edit 'C2012X5R1V685K125AC.dev';
+Prefix '';
+Description '';
+Value Off;
+Add WB_CAPACITOR 'A' Next  0 (0 0);
+Package '0805';
+Technology '';
+Attribute DatasheetURL 'httpsproduct.tdk.comensearchcapacitorceramicmlccinfo?part%5Fno%3DC2012X5R1V685K125AC';
+Attribute Cap '6.8E6';
+Attribute ESR '0.003795';
+Attribute IRMS '3.34931';
+Attribute VDC '35.0';
+Attribute Manufacturer_Part_Number 'C2012X5R1V685K125AC';
+Attribute Vendor 'TDK';
+Attribute Manufacturer_Name 'TDK';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+
+Edit 'TPS62135RGXR.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add TPS62135RGX 'A' Next  0 (0 0);
+Package 'RGX0011A';
+Technology '';
+Attribute PartNumber 'TPS62135RGXR';
+Attribute Manufacturer 'Texas Instruments';
+Attribute RefDes 'RefDes';
+Attribute TYPE 'TYPE';
+Attribute Value 'Value';
+Attribute Manufacturer_Part_Number 'TPS62135RGXR';
+Attribute Manufacturer_Name 'Texas Instruments';
+Connect 'A.VIN' '1';
+Connect 'A.SW' '2';
+Connect 'A.GND' '3';
+Connect 'A.FB2' '4';
+Connect 'A.FB' '5';
+Connect 'A.VOS' '6';
+Connect 'A.PG' '7';
+Connect 'A.EN' '8';
+Connect 'A.SS_TR' '9';
+Connect 'A.MODE' '10';
+Connect 'A.VSEL' '11';
+
+Edit 'CRCW0402100KFKED.dev';
+Prefix '';
+Description '';
+Value Off;
+Add WB_RESISTOR 'A' Next  0 (0 0);
+Package '0402';
+Technology '';
+Attribute Resistance '100000.0';
+Attribute Power '0.063';
+Attribute Tolerance '1.0';
+Attribute Manufacturer_Part_Number 'CRCW0402100KFKED';
+Attribute Vendor 'VishayDale';
+Attribute Manufacturer_Name 'VishayDale';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+
+Edit 'GRM155R61C222KA01D.dev';
+Prefix '';
+Description '';
+Value Off;
+Add WB_CAPACITOR 'A' Next  0 (0 0);
+Package '0402';
+Technology '';
+Attribute Cap '2.2E9';
+Attribute ESR '0.0';
+Attribute IRMS '0.0';
+Attribute VDC '16.0';
+Attribute Manufacturer_Part_Number 'GRM155R61C222KA01D';
+Attribute Vendor 'MuRata';
+Attribute Manufacturer_Name 'MuRata';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+
+Edit 'CRCW04021M62FKED.dev';
+Prefix '';
+Description '';
+Value Off;
+Add WB_RESISTOR 'A' Next  0 (0 0);
+Package '0402';
+Technology '';
+Attribute Resistance '1620000.0';
+Attribute Power '0.063';
+Attribute Tolerance '1.0';
+Attribute Manufacturer_Part_Number 'CRCW04021M62FKED';
+Attribute Vendor 'VishayDale';
+Attribute Manufacturer_Name 'VishayDale';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+
+Edit 'C2012X7R1V475K125AC.dev';
+Prefix '';
+Description '';
+Value Off;
+Add WB_CAPACITOR 'A' Next  0 (0 0);
+Package '0805';
+Technology '';
+Attribute DatasheetURL 'httpsproduct.tdk.comensearchcapacitorceramicmlccinfo?part%5Fno%3DC2012X7R1V475K125AC';
+Attribute Cap '4.7E6';
+Attribute ESR '0.002346';
+Attribute IRMS '4.26021';
+Attribute VDC '35.0';
+Attribute Manufacturer_Part_Number 'C2012X7R1V475K125AC';
+Attribute Vendor 'TDK';
+Attribute Manufacturer_Name 'TDK';
+Connect 'A.1' '1';
+Connect 'A.2' '2';

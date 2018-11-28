@@ -149,7 +149,7 @@
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
@@ -226,6 +226,8 @@ GND
 GND
 GND
 -12V</text>
+<dimension x1="0" y1="0" x2="400" y2="0" x3="200" y3="-17.8" textsize="1.778" layer="248"/>
+<dimension x1="400" y1="0" x2="400" y2="60" x3="414.2" y3="30" textsize="1.778" layer="248"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2670,7 +2672,6 @@ Your Eurocircuits Team
 <vertex x="399.6" y="0.3"/>
 <vertex x="399.6" y="59.5"/>
 <vertex x="399.7" y="59.6"/>
-<vertex x="0.5" y="59.8"/>
 <vertex x="0.5" y="59.8"/>
 </polygon>
 <wire x1="22.25" y1="22.5" x2="22.95" y2="20.7" width="0.8128" layer="1"/>
